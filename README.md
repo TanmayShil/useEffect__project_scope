@@ -16,6 +16,7 @@ Scope:
 
 # 2. GitHub User Finder 🐙
 API: https://api.github.com/users/{username} 
+
 Scope:
  - Fetch API data based on user input (username).
  - Handle valid vs invalid user responses (User not found).
@@ -25,6 +26,7 @@ Scope:
 
 # 3. News Headlines App 📰
 API: https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${API_KEY} 
+
 Scope:
  - Learn API fetch on component mount (default headlines).
  - Implement dropdown filter (category) → trigger re-fetch.
@@ -33,6 +35,7 @@ Scope:
 
 # 4. Random Joke Generator 😂
 API: https://official-joke-api.appspot.com/random_joke
+
 Scope:
  - Fetch random data on mount.
  - Add a button to re-fetch (new joke on demand).
@@ -41,6 +44,7 @@ Scope:
 
 # 5. API Polling (Auto Refresh) ⏳
 API: https://api.coindesk.com/v1/bpi/currentprice.json
+
 Scope:
  - Learn polling with setInterval + useEffect.
  - Automatically fetch Bitcoin price every 10s.
@@ -49,6 +53,7 @@ Scope:
 
 # 6. Debounced Search ⌨️
 API: https://jsonplaceholder.typicode.com/posts?title_like=${query} 
+
 Scope:
  - Implement debouncing → wait 500ms before calling API.
  - Prevent excessive API calls while typing.
@@ -57,6 +62,7 @@ Scope:
 
 # 7. Search with Loading & Error Handling 🔍
 API: https://jsonplaceholder.typicode.com/comments?email_like=${query}
+
 Scope:
  - Show loading indicator while fetching.
  - Handle error states (No results, API error).
@@ -65,6 +71,7 @@ Scope:
 
 # 8. Paginated Search 📑
 API: https://jsonplaceholder.typicode.com/posts?q=${query}&_page=${page}&_limit=10 
+
 Scope:
  - Fetch search results in pages (10 results at a time).
  - Implement pagination (Next/Prev buttons).
@@ -73,6 +80,7 @@ Scope:
 
 # 9. Live Suggestions (AutoComplete) ✍️
 API: https://api.datamuse.com/sug?s=${query} 
+
 Scope:
  - Show live word suggestions while typing.
  - Trigger API calls on query change using useEffect.
@@ -81,6 +89,7 @@ Scope:
 
 # 10. Search with Sorting ↕️
 API: https://jsonplaceholder.typicode.com/users?name_like=${query} 
+
 Scope:
  - Fetch search results from API.
  - Add sorting feature (by name/id).
@@ -89,6 +98,7 @@ Scope:
 
 # 11. Search with Infinite Scroll 📜
 API: https://jsonplaceholder.typicode.com/posts?q=${query}&_limit=10&_page=${page}
+
 Scope:
  - Fetch search results page by page.
  - Load more data when scroll reaches bottom
