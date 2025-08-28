@@ -105,7 +105,7 @@ Scope:
  - Practice pagination + infinite scroll mechanism.
  - Handle merging old & new data in state.
 
-12. Device & Network State 📱🌐
+# 12. Device & Network State 📱🌐
 
 Scope:
  - Detect online/offline network status with browser events.
