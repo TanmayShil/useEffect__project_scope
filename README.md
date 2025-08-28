@@ -7,6 +7,7 @@ Each mini-project focuses on a specific concept like API fetching, debouncing, p
 
 # 1. Weather App 🌦
 API: https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY} 
+
 Scope:
  - Learn how to fetch dynamic API data using a query parameter (city name).
  - Practice loading state & error handling (Loading..., City not found).
