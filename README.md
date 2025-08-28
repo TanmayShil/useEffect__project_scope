@@ -12,4 +12,10 @@ Scope:
  - Render dynamic UI (temperature, condition, icon).
  - Understand conditional rendering in React.
 
-
+# 2. GitHub User Finder 🐙
+Scope:
+ - Fetch API data based on user input (username).
+ - Handle valid vs invalid user responses (User not found).
+ - Display user profile info (name, avatar, bio, followers).
+ - Show GitHub repos and link them to external GitHub pages.
+ - Learn dependency-based re-fetching → fetch again only when category (repos, followers, etc.) changes.
