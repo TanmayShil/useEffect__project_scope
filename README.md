@@ -112,3 +112,10 @@ Scope:
  - Display UI feedback (Offline Mode).
  - Learn how to subscribe/unsubscribe to window events inside useEffect.
  - (Optional) Handle device orientation changes (portrait/landscape).
+
+---
+
+## 🙋‍♂️ Author
+
+Made with ❤️ by Tanmay Shil
+GitHub: [@TanmayShil](https://github.com/TanmayShil)
