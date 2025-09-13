@@ -34,7 +34,7 @@ Scope:
  - Understand controlled inputs (dropdowns) with useEffect triggers.
 
 # 4. Random Joke Generator 😂
-API: https://official-joke-api.appspot.com/random_joke
+API: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd
 
 Scope:
  - Fetch random data on mount.
