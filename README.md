@@ -34,7 +34,7 @@ Scope:
  - Understand controlled inputs (dropdowns) with useEffect triggers.
 
 # 4. Random Joke Generator 😂
-API: https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+API: https://official-joke-api.appspot.com/random_joke
 
 Scope:
  - Fetch random data on mount.
@@ -43,7 +43,9 @@ Scope:
  - Practice event-based API calls (onClick).
 
 # 5. API Polling (Auto Refresh) ⏳
-API: https://api.coindesk.com/v1/bpi/currentprice.json
+API: '
+1. https://api.coindesk.com/v1/bpi/currentprice.json
+2. https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd
 
 Scope:
  - Learn polling with setInterval + useEffect.
